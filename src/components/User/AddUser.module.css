@@ -1,0 +1,41 @@
+.input {
+    margin:auto;
+    width: 90%;
+    max-width: 40rem;
+  }
+  
+  .input label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input input {
+    font: inherit;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input input:focus {
+    outline: none;
+    border-color: #4f005f;
+  }
+
+
+  .user_input{
+    display: grid;
+    height:200px;
+    width:600px;
+    background-color: rgb(242, 82, 228);
+    margin:auto;
+    margin-top: 20px;
+  }
+  .user_input Button{
+    margin:0px 30px 10px ;
+    width:90px;
+    height:30px;
+    
+  }
