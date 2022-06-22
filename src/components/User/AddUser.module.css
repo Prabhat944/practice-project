@@ -27,14 +27,14 @@
 
   .user_input{
     display: grid;
-    height:200px;
+    height:250px;
     width:600px;
     background-color: rgb(242, 82, 228);
     margin:auto;
     margin-top: 20px;
   }
   .user_input Button{
-    margin:0px 30px 10px ;
+    margin:0px 0px 10px ;
     width:90px;
     height:30px;
     

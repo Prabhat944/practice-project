@@ -7,10 +7,10 @@ function App() {
 
 const [userDetail,setUserDetail] = useState([]);
 
-const setUserInputHandler = (username,age) =>{  
+const setUserInputHandler = (username,age,college) =>{  
   setUserDetail((prevDetail)=>{
     return [...prevDetail,
-      {name:username,age:age,id:Math.random().toString()}];
+      {name:username,age:age,college:college,id:Math.random().toString()}];
   })
 }
   return <div>
